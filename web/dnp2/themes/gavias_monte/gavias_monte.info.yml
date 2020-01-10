@@ -1,0 +1,48 @@
+name: Gavias Monte
+type: theme
+description: 'A flexible, recolorable theme with many regions and a responsive, mobile-first layout.'
+package: gaviasthemes
+base theme: false
+libraries:
+  - gavias_monte/global-styling
+  - core/jquery
+
+regions:
+  branding: Branding
+  search: Search
+  header_right: 'Header Right'
+  breaking_news: 'Breaking News'
+  breadcrumbs: 'Breadcrumbs'
+  help: 'Help'
+  main_menu: 'Main menu'
+  promotion_first: 'Promotion First'
+  promotion: Promotion
+  promotion_second: 'Promotion Second'
+  before_content: 'Before Content'
+  content_top: 'Content Top'
+  content: 'Main content'
+  content_bottom: 'Content Bottom'
+  sidebar_left: 'Sidebar Left'
+  sidebar_right: 'Sidebar Right'
+  after_content: 'After Content'
+  highlighted: 'Highlighted'
+  before_panel : 'Before Panel'
+  panel_first: 'Panel First'
+  panel_second: 'Panel Second'
+  panel_third: 'Panel Third'
+  panel_four: 'Panel Four'
+  after_panel : 'After Panel'
+  before_footer: 'Before Footer'
+  footer_first: 'Footer Fisrt'
+  footer_second: 'Footer Second'
+  footer_third: 'Footer Third'
+  footer_four: 'Footer Four'
+  after_footer: 'After Footer'
+  copyright: Copyright
+  other: Other
+
+# Information added by Drupal.org packaging script on 2015-11-19
+version: '8.0.0'
+core: '8.x'
+project: 'drupal'
+datestamp: 1447942689

@@ -1,0 +1,6 @@
+.node--view-mode-full ul{
+   padding-left: 20px;
+}
+.node--view-mode-full ul li{
+   list-style: disc;
+}

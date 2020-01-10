@@ -1,0 +1,51 @@
+<header id="header" class="header-v3">
+  
+  <div class="topbar" style="">
+    {% if page.breaking_news %}
+      <div class="breaking-news">
+        <div class="container">
+          <div class="content-inner clearfix">
+            <div class="title">
+               Breaking news
+            </div>
+            <div class="content">{{ page.breaking_news }}</div> 
+          </div>   
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+   <div class="header-main {{sticky_menu}}">
+      <div class="container">
+         <div class="header-main-inner p-relative">
+            <div class="row">
+              <div class="col-xs-3 branding">
+                {% if page.branding %}
+                  {{ page.branding }}
+                {% endif %}
+              </div>
+
+              <div class="col-xs-9 p-static">
+                <div class="main-menu">
+                    <div class="navigation area-main-menu">
+                      <div class="area-inner">
+                        {% if page.main_menu %}
+                          {{ page.main_menu }}
+                        {% endif %}  
+                         {% if page.search %}
+                            <div class="gva-search-region search-region">
+                              <span class="icon"><i class="fa fa-search"></i></span>
+                              <div class="search-content">  
+                                {{ page.search }}
+                              </div>  
+                            </div>
+                         {% endif %}
+                      </div>
+                   </div>
+                </div> 
+              </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>

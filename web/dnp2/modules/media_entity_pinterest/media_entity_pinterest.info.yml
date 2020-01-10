@@ -1,0 +1,13 @@
+name: Media entity Pinterest
+description: 'Media entity Pinterest provider.'
+type: module
+package: Media
+# core: 8.x
+dependencies:
+  - drupal:media (>= 8.4)
+
+# Information added by Drupal.org packaging script on 2019-08-13
+version: '8.x-2.2'
+core: '8.x'
+project: 'media_entity_pinterest'
+datestamp: 1565724187

@@ -1,0 +1,13 @@
+name: Paragraphs Editor Enhancements
+type: module
+description: Contains various improvements to the Paragraphs UI.
+# core: 8.x
+package: Paragraphs
+dependencies:
+  - paragraphs_features:paragraphs_features
+
+# Information added by Drupal.org packaging script on 2019-04-25
+version: '8.x-1.4'
+core: '8.x'
+project: 'paragraphs_ee'
+datestamp: 1556168313

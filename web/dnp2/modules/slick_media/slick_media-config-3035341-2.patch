@@ -1,0 +1,55 @@
+From 9fe32f1f159aa589a6e6461f28bfac48ddff3804 Mon Sep 17 00:00:00 2001
+From: florenttorregrosa <florenttorregrosa@2388214.no-reply.drupal.org>
+Date: Sun, 24 Feb 2019 12:21:08 +0100
+Subject: [PATCH] Issue #3035341: Incompatibility with slick_media
+
+---
+ config/install/core.entity_view_mode.media.slick.yml | 12 ------------
+ config/install/image.style.slick_media.yml           | 16 ----------------
+ 2 files changed, 28 deletions(-)
+ delete mode 100644 config/install/core.entity_view_mode.media.slick.yml
+ delete mode 100644 config/install/image.style.slick_media.yml
+
+diff --git a/config/install/core.entity_view_mode.media.slick.yml b/config/install/core.entity_view_mode.media.slick.yml
+deleted file mode 100644
+index c69dc00..0000000
+--- a/config/install/core.entity_view_mode.media.slick.yml
++++ /dev/null
+@@ -1,12 +0,0 @@
+-langcode: en
+-status: true
+-dependencies:
+-  enforced:
+-    module:
+-      - slick_media
+-  module:
+-    - media
+-id: media.slick
+-label: 'Slick carousel'
+-targetEntityType: media
+-cache: true
+diff --git a/config/install/image.style.slick_media.yml b/config/install/image.style.slick_media.yml
+deleted file mode 100644
+index 26ca30e..0000000
+--- a/config/install/image.style.slick_media.yml
++++ /dev/null
+@@ -1,16 +0,0 @@
+-langcode: en
+-status: true
+-dependencies:
+-  enforced:
+-    module:
+-      - slick_media
+-name: slick_media
+-label: 'Slick media'
+-effects:
+-  4b434ce0-90cc-44c3-9423-35d7cccc7d93:
+-    uuid: 4b434ce0-90cc-44c3-9423-35d7cccc7d93
+-    id: image_scale_and_crop
+-    weight: 1
+-    data:
+-      width: 853
+-      height: 480
+-- 
+2.1.4
+

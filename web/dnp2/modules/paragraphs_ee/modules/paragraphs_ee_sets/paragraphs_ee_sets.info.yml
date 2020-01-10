@@ -1,0 +1,14 @@
+name: Paragraphs Editor Enhancements for Paragraphs Sets
+type: module
+description: Applies editor enhancements to Paragraphs Sets.
+# core: 8.x
+package: Paragraphs
+dependencies:
+  - paragraphs_ee:paragraphs_ee
+  - paragraphs_sets:paragraphs_sets
+
+# Information added by Drupal.org packaging script on 2019-04-25
+version: '8.x-1.4'
+core: '8.x'
+project: 'paragraphs_ee'
+datestamp: 1556168313
